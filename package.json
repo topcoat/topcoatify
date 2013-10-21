@@ -1,0 +1,40 @@
+{
+  "name": "topcoatify",
+  "version": "0.0.1",
+  "description": "Customized builds of Topcoat using npm.",
+  "main": "index.js",
+  "bin": {
+    "topcoatify": "bin/index.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "npm-css": "~0.2.3",
+    "optimist": "~0.6.0"
+  },
+  "devDependencies": {
+    "tape": "~2.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/topcoat/topcoatify"
+  },
+  "keywords": [
+    "topcoat",
+    "css",
+    "npm",
+    "browserify",
+    "npm-css",
+    "raccoons"
+  ],
+  "author": "Brian LeRoux",
+  "license": "Apache2",
+  "readmeFilename": "readme.md",
+  "bugs": {
+    "url": "https://github.com/topcoat/topcoatify/issues"
+  }
+}

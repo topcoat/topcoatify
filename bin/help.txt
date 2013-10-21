@@ -1,0 +1,13 @@
+
+Usage: topcoatify [entry files] {OPTIONS}
+
+Standard Options:
+
+    --outfile, -o  write the browserify bundle to this file.
+                   if unspecified, browserify prints to stdout.
+
+       --debug -d  enable source maps that allow you to debug your files
+                   separately.
+
+       --help, -h  show this message
+
